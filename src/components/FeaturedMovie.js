@@ -6,7 +6,7 @@ export default ({ item }) => {
     
     let genres = [];
     for(let i in item.genres){
-       genres.push(item.genres[i].name);
+       genres.push(item.genres[i].name);  
     }
  
     return (
